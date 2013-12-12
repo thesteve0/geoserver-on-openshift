@@ -1,3 +1,3 @@
-The OpenShift `jbossews` cartridge documentation can be found at:
+This quickstart was created to enable a Geoserver quickstart to work on OpenShift.
 
-https://github.com/openshift/origin-server/tree/master/cartridges/openshift-origin-cartridge-jbossews/README.md
+It accompanies the blog post [on Openshift.]() 
