@@ -3,7 +3,6 @@
 #### This little script copies over the geoserver data directory
 #### from the repository if it doesn't already exist
 
-if ! [ -d "$OPENSHIFT_DATA_DIR/geoserver_data/data  ]; then
-  # mv "from repo to $OPENSHIFT_DATA_DIR/geoserver_data
-  echo "no data directory"
+if ! [ -d "$OPENSHIFT_DATA_DIR/geoserver_data/data"  ]; then
+  cp -r $OPENSHIFT_REPO_DIR/geoserver_data/ $OPENSHIFT_DATA_DIR/
 fi
