@@ -1,7 +1,6 @@
 SET CLIENT_ENCODING TO UTF8;
 SET STANDARD_CONFORMING_STRINGS TO ON;
 BEGIN;
-CREATE EXTENSION POSTGIS;
 CREATE TABLE "streets" (gid serial,
 "funclass" varchar(80),
 "divided" varchar(80),
