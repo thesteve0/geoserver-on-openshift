@@ -3,7 +3,7 @@
   <enabled>true</enabled>
   <name>WFS</name>
   <title>GeoServer Web Feature Service</title>
-  <maintainer>http://jira.codehaus.org/secure/BrowseProject.jspa?id=10311</maintainer>
+  <maintainer>http://geoserver.org/comm</maintainer>
   <abstrct>This is the reference implementation of WFS 1.0.0 and WFS 1.1.0, supports all WFS operations including Transaction.</abstrct>
   <accessConstraints>NONE</accessConstraints>
   <fees>NONE</fees>
@@ -30,10 +30,10 @@
   <verbose>false</verbose>
   <gml>
     <entry>
-      <version>V_20</version>
+      <version>V_10</version>
       <gml>
-        <srsNameStyle>URN2</srsNameStyle>
-        <overrideGMLAttributes>false</overrideGMLAttributes>
+        <srsNameStyle>XML</srsNameStyle>
+        <overrideGMLAttributes>true</overrideGMLAttributes>
       </gml>
     </entry>
     <entry>
@@ -44,10 +44,10 @@
       </gml>
     </entry>
     <entry>
-      <version>V_10</version>
+      <version>V_20</version>
       <gml>
-        <srsNameStyle>XML</srsNameStyle>
-        <overrideGMLAttributes>true</overrideGMLAttributes>
+        <srsNameStyle>URN2</srsNameStyle>
+        <overrideGMLAttributes>false</overrideGMLAttributes>
       </gml>
     </entry>
   </gml>
